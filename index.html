@@ -36,7 +36,7 @@
     /* 📱 Small device (800x480) */
     @media (max-width: 900px) {
       .quote {
-        font-size: 20px;
+        font-size: 28px;
       }
       .author {
         font-size: 14px;
@@ -46,7 +46,7 @@
     /* 🖥 Large device (1200x1600) */
     @media (min-width: 1200px) {
       .quote {
-        font-size: 36px;
+        font-size: 46px;
       }
       .author {
         font-size: 22px;
@@ -77,7 +77,6 @@
 
         document.getElementById("quote").innerHTML = `
           <div class="quote">"${cleanText}"</div>
-          <div class="author">- ${author}</div>
         `;
       })
       .catch(err => console.log(err));
